@@ -1,4 +1,4 @@
-"use client";
+"use client"; //defining this is a client component
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
             "Web Developer",
             1000,
             "Software Developer",
-            1000,
+            10000,
           ]}
           wrapper="h1"
           speed={50}
